@@ -1,0 +1,83 @@
+.index-learn {
+  padding: 80px 0;
+}
+
+.index-learn__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index-learn__title {
+  max-width: 520px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #302d3a;
+}
+
+.index-learn__text {
+  max-width: 613px;
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.index-learn__list {
+  max-width: 500px;
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  list-style: none;
+}
+
+.index-learn__item {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background-image: url("../../img/icon-checkmark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+.index-learn__end {
+  position: relative;
+  padding-right: 50px;
+  padding-top: 50px;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-color: transparent;
+    border: 3px solid #f68c20;
+    border-top-right-radius: 180px;
+  }
+}
+
+.index-learn__hero {
+  display: block;
+  border-top-right-radius: 180px;
+}

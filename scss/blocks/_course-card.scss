@@ -1,0 +1,125 @@
+.course-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  padding-bottom: 32px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.course-card__poster {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.course-card__info {
+  min-width: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #efeff6;
+}
+
+.course-card__info-item {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &--star::before {
+    background-image: url("../../img/icon-star.svg");
+  }
+
+  &--view::before {
+    background-image: url("../../img/icon-view.svg");
+  }
+
+  &--play::before {
+    background-image: url("../../img/icon-play.svg");
+  }
+}
+
+.course-card__title {
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.course-card__title-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.course-card__end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-card__author {
+  display: flex;
+  align-items: center;
+}
+
+.course-card__author-avatar {
+  margin-right: 14px;
+  border-radius: 10px;
+}
+
+.course-card__author-title {
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #7a7a7a;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.course-card__price {
+  display: flex;
+}
+
+.course-card__price-old {
+  margin-right: 17px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: line-through;
+  color: #cac6d4;
+}
+
+.course-card__price-new {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f68c20;
+}

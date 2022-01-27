@@ -1,0 +1,106 @@
+.site-header {
+  padding-top: 13px;
+  background-color: #fef0ef;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  margin-right: auto;
+
+  img {
+    display: block;
+  }
+}
+
+.site-header__search-btn {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  padding: 0;
+  background-color: #fff;
+  background-image: url("../../img/icon-search.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.site-header__navbar-btn {
+  width: 35px;
+  height: 26px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("../../img/icon-navbar.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.site-header__cart-btn {
+  display: none;
+  width: 24px;
+  height: 24px;
+  margin-right: 34px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("../../img/icon-cart.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}
+
+.site-header__sitenav {
+  display: none;
+  margin-right: auto;
+}
+
+.site-header__register-btn {
+  display: none;
+}
+
+// BREAKPOINTS
+
+@media screen and (min-width: $breakpoint-md) {
+  .site-header__navbar-btn {
+    margin-right: 20px;
+  }
+
+  .site-header__register-btn {
+    display: block;
+  }
+}
+
+@media screen and (min-width: $breakpoint-xl) {
+  .site-header {
+    padding-top: 34px;
+  }
+
+  .site-header__logo {
+    margin-right: 73px;
+  }
+
+  .site-header__navbar-btn {
+    display: none;
+  }
+
+  .site-header__sitenav,
+  .site-header__cart-btn {
+    display: block;
+  }
+
+  .site-header__search-btn {
+    width: 24px;
+    height: 24px;
+    margin-right: 45px;
+    background-color: transparent;
+  }
+}

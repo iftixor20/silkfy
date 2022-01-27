@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skillfy</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">Skillfy</h1>
+
+  <!-- SITE-HEADER -->
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="site-header__logo" href="./">
+          <img src="./img/logo.svg" width="115" height="42" alt="Logo of Skillfy">
+        </a>
+
+        <nav class="site-header__sitenav sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./">Home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Pages</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Courses</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Features</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Blog</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Shop</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="site-header__search-btn" aria-label="Search"></button>
+        <button class="site-header__navbar-btn" aria-label="Open navbar"></button>
+        <button class="site-header__cart-btn" aria-label="Open cart"></button>
+        <button class="site-header__register-btn btn btn--red">Register</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SITE-CONTENT -->
+
+  <main class="site-content">
+    <!-- INDEX-CTA -->
+
+    <section class="index-cta">
+      <div class="container">
+        <div class="index-cta__inner">
+          <div class="index-cta__start">
+            <h2 class="index-cta__title">Turn your ambition into a success story</h2>
+            <p class="index-cta__text">Choose from over 100,000 online video
+              courses with new additions published every mont.</p>
+            <form class="index-cta__search" action="https://echo.htmlacademy.ru">
+              <input class="index-cta__search-input" type="search" name="q" aria-label="Course name"
+                placeholder="Search your favourite course" required />
+              <button class="index-cta__search-btn" type="submit" aria-label="Search"></button>
+            </form>
+          </div>
+
+          <div class="index-cta__end">
+            <img class="index-cta__hero" src="https://place-hold.it/482x600" width="482" height="600 " alt="Hero">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDEX-COURSES -->
+
+    <section class="index-courses">
+      <div class="container">
+        <div class="index-courses__inner">
+          <header class="index-courses__header">
+            <h2 class="index-courses__title">Get choice of your course</h2>
+            <select class="index-courses__select" aria-label="Course categories">
+              <option value="Design">Design</option>
+              <option value="Development">Development</option>
+              <option value="IT & Software">IT & Software</option>
+              <option value="Business">Business</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Photography">Photography</option>
+              <option value="Health & Care">Health & Care</option>
+              <option value="Technology">Technology</option>
+            </select>
+            <a class="index-courses__btn btn btn--red" href="#">View all</a>
+          </header>
+
+          <div class="index-courses__content">
+            <ul class="index-courses__list">
+              <li class="index-courses__item course-card">
+                <img class="course-card__poster" src="https://place-hold.it/337x263" alt="Course card">
+                <div class="course-card__info">
+                  <span class="course-card__info-item course-card__info-item--star">4.5 (120)</span>
+                  <span class="course-card__info-item course-card__info-item--view">28,500</span>
+                  <span class="course-card__info-item course-card__info-item--play">36 Lessons</span>
+                </div>
+                <h3 class="course-card__title">
+                  <a class="course-card__title-link" href="#">Everything You Need to Know About Business</a>
+                </h3>
+                <div class="course-card__end">
+                  <div class="course-card__author">
+                    <img class="course-card__author-avatar" src="https://place-hold.it/40" alt="Author">
+                    <a class="course-card__author-title" href="#">Nicole Brown</a>
+                  </div>
+                  <div class="course-card__price">
+                    <span class="course-card__price-old">$99.99</span>
+                    <span class="course-card__price-new">$49.65</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="index-courses__item course-card">
+                <img class="course-card__poster" src="https://place-hold.it/337x263" alt="Course card">
+                <div class="course-card__info">
+                  <span class="course-card__info-item course-card__info-item--star">4.5 (120)</span>
+                  <span class="course-card__info-item course-card__info-item--view">28,500</span>
+                  <span class="course-card__info-item course-card__info-item--play">36 Lessons</span>
+                </div>
+                <h3 class="course-card__title">
+                  <a class="course-card__title-link" href="#">Everything You Need to Know About Business</a>
+                </h3>
+                <div class="course-card__end">
+                  <div class="course-card__author">
+                    <img class="course-card__author-avatar" src="https://place-hold.it/40" alt="Author">
+                    <a class="course-card__author-title" href="#">Nicole Brown</a>
+                  </div>
+                  <div class="course-card__price">
+                    <span class="course-card__price-old">$99.99</span>
+                    <span class="course-card__price-new">$49.65</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="index-courses__item course-card">
+                <img class="course-card__poster" src="https://place-hold.it/337x263" alt="Course card">
+                <div class="course-card__info">
+                  <span class="course-card__info-item course-card__info-item--star">4.5 (120)</span>
+                  <span class="course-card__info-item course-card__info-item--view">28,500</span>
+                  <span class="course-card__info-item course-card__info-item--play">36 Lessons</span>
+                </div>
+                <h3 class="course-card__title">
+                  <a class="course-card__title-link" href="#">Everything You Need to Know About Business</a>
+                </h3>
+                <div class="course-card__end">
+                  <div class="course-card__author">
+                    <img class="course-card__author-avatar" src="https://place-hold.it/40" alt="Author">
+                    <a class="course-card__author-title" href="#">Nicole Brown</a>
+                  </div>
+                  <div class="course-card__price">
+                    <span class="course-card__price-old">$99.99</span>
+                    <span class="course-card__price-new">$49.65</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="index-courses__control">
+              <button class="index-courses__control-btn index-courses__control-btn--prev"
+                aria-label="Prev button"></button>
+              <div class="index-courses__control-scroll">
+                <span class="index-courses__control-scroll-line"></span>
+              </div>
+              <button class="index-courses__control-btn index-courses__control-btn--next"
+                aria-label="Next button"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDEX-CATEGORIES -->
+
+    <section class="index-categories">
+      <div class="container">
+        <div class="index-categories__inner">
+          <header class="index-categories__header">
+            <h2 class="index-categories__title">Choice favourite course from top category </h2>
+            <a class="index-categories__btn btn btn--red" href="#">See all Categories</a>
+          </header>
+
+          <div class="index-categories__content">
+            <ul class="index-categories__list">
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-design.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Design</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-development.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Development</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-it.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">IT & Software</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-business.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Business</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-marketing.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Marketing</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-photography.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Photography</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-health.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Health & Care</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+
+              <li class="index-categories__item category-card">
+                <img class="category-card__icon" src="./img/icon-category-technology.svg" width="58" height="58"
+                  alt="Category icon">
+                <h3 class="category-card__title">
+                  <a class="category-card__link" href="#">Technology</a>
+                </h3>
+                <p class="category-card__info">Learn Adobe Illustrator CC graphic design, logo design, and more with
+                  this
+                  in-depth, practical, easy-</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDEX-JOIN -->
+
+    <section class="index-join">
+      <div class="container">
+        <h2 class="index-join__title">Online Coaching Lessons For Remote Learning.</h2>
+        <p class="index-join__text">100% online learning from the world’s best universities and companies</p>
+        <a class="btn btn--red" href="#">Join Today</a>
+      </div>
+    </section>
+
+    <!-- INDEX-LEARN -->
+
+    <section class="index-learn">
+      <div class="container">
+        <div class="index-learn__inner">
+          <div class="index-learn__start">
+            <h2 class="index-learn__title">Know about learning learning platform</h2>
+            <p class="index-learn__text">With our growing catalog of over 30 Nanodegree programs from beginner to
+              advanced, you’re sure to find one that fits your career goals</p>
+            <ul class="index-learn__list">
+              <li class="index-learn__item">Free E-book, Video & Consolation</li>
+              <li class="index-learn__item">Top instructors from around world</li>
+              <li class="index-learn__item">Top courses for your team.</li>
+            </ul>
+            <a class="btn btn--red" href="#">Start learning now</a>
+          </div>
+
+          <div class="index-learn__end">
+            <img class="index-learn__hero" src="https://place-hold.it/500x630" role="presentation">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDEX-FEEDBACKS -->
+
+    <section class="index-feedbacks">
+      <div class="container">
+        <div class="index-feedbacks__inner">
+          <header class="index-feedbacks__header">
+            <h2 class="index-feedbacks__title">What our students have to say</h2>
+            <button class="index-feedbacks__btn index-feedbacks__btn--prev btn" aria-label="Prev button"></button>
+            <button class="index-feedbacks__btn index-feedbacks__btn--next btn" aria-label="Next button"></button>
+          </header>
+
+          <ul class="index-feedbacks__list">
+            <li class="index-feedbacks__item feedback-card">
+              <header class="feedback-card__header">
+                <img class="feedback-card__avatar" src="https://place-hold.it/60" width="60" height="60" alt="Avatar">
+                <div class="feedback-card__user">
+                  <h3 class="feedback-card__user-name">Themadbrains</h3>
+                  <span class="feedback-card__user-job">Student</span>
+                </div>
+                <img class="feedback-card__star" src="./img/icon-stars.svg" alt="5 stars">
+              </header>
+              <p class="feedback-card__content">Skillfy is a life saver. I don’t have the time/money for a college
+                education. My goal is to become a freelance web developer, and thanks to Skillfy.</p>
+            </li>
+            <li class="index-feedbacks__item feedback-card feedback-card--active">
+              <header class="feedback-card__header">
+                <img class="feedback-card__avatar" src="https://place-hold.it/60" width="60" height="60" alt="Avatar">
+                <div class="feedback-card__user">
+                  <h3 class="feedback-card__user-name">UIUX Designer</h3>
+                  <span class="feedback-card__user-job">Student</span>
+                </div>
+                <img class="feedback-card__star" src="./img/icon-stars.svg" alt="5 stars">
+              </header>
+              <p class="feedback-card__content">Skillfy is a life saver. I don’t have the time/money for a college
+                education. My goal is to become a freelance web developer, and thanks to Skillfy.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDEX-PARTNERS -->
+
+    <section class="index-partners">
+      <div class="container">
+        <div class="index-partners__inner">
+          <header class="index-partners__header">
+            <h2 class="index-partners__title">Trusted by our awesome partners</h2>
+            <button class="index-partners__btn index-partners__btn--prev btn" aria-label="Prev button"></button>
+            <button class="index-partners__btn index-partners__btn--next btn" aria-label="Next button"></button>
+          </header>
+
+          <ul class="index-partners__list">
+            <li class="index-partners__item">
+              <a class="index-partners__link" href="#">
+                <img src="https://place-hold.it/164x66" alt="Company name" />
+              </a>
+            </li>
+            <li class="index-partners__item">
+              <a class="index-partners__link" href="#">
+                <img src="https://place-hold.it/164x66" alt="Company name" />
+              </a>
+            </li>
+            <li class="index-partners__item">
+              <a class="index-partners__link" href="#">
+                <img src="https://place-hold.it/164x66" alt="Company name" />
+              </a>
+            </li>
+            <li class="index-partners__item">
+              <a class="index-partners__link" href="#">
+                <img src="https://place-hold.it/164x66" alt="Company name" />
+              </a>
+            </li>
+            <li class="index-partners__item">
+              <a class="index-partners__link" href="#">
+                <img src="https://place-hold.it/164x66" alt="Company name" />
+              </a>
+            </li>
+            <li class="index-partners__item">
+              <a class="index-partners__link" href="#">
+                <img src="https://place-hold.it/164x66" alt="Company name" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDEX-JOBS -->
+
+    <section class="index-jobs">
+      <div class="container">
+        <h2 class="visually-hidden">Jobs</h2>
+
+        <ul class="index-jobs__list">
+          <li class="index-jobs__item job-card">
+            <div class="job-card__start">
+              <img class="job-card__avatar" src="https://place-hold.it/80" alt="Avatar" />
+            </div>
+
+            <div class="job-card__end">
+              <h3 class="job-card__title">Become a Teacher</h3>
+              <p class="job-card__text">Teach what you love. Coursector gives you the tools to create a course.</p>
+              <a class="job-card__link btn btn--red" href="#">Apply as teacher</a>
+            </div>
+          </li>
+
+          <li class="index-jobs__item job-card">
+            <div class="job-card__start">
+              <img class="job-card__avatar" src="https://place-hold.it/80" alt="Avatar" />
+            </div>
+
+            <div class="job-card__end">
+              <h3 class="job-card__title">Coursector for Business</h3>
+              <p class="job-card__text">Get unlimited access to 3,000+ of Coursector’s top courses for your team</p>
+              <a class="job-card__link btn btn--red" href="#">Get skillfy for business </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- SITE-FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <h2 class="visually-hidden">Page Footer</h2>
+
+      <div class="site-footer__inner">
+        <div class="site-footer__start">
+          <nav class="site-footer__navbar">
+            <div class="site-footer__navbar-column">
+              <h3 class="site-footer__navbar-title">Company</h3>
+
+              <ul class="site-footer__navbar-list">
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">About</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Careers</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Press</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Blog</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Affiliates</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="site-footer__navbar-column">
+              <h3 class="site-footer__navbar-title">Community</h3>
+
+              <ul class="site-footer__navbar-list">
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Go Premium</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Team Plans</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Refer a Friend</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Gift Cards</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Scholarships</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Free Classes</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="site-footer__navbar-column">
+              <h3 class="site-footer__navbar-title">Teaching</h3>
+
+              <ul class="site-footer__navbar-list">
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Become a Teacher</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Teaching Academy</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Teacher Handbook</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Partnerships</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="site-footer__navbar-column">
+              <h3 class="site-footer__navbar-title">Support</h3>
+
+              <ul class="site-footer__navbar-list">
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Support</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Contact Us</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">System Requirements</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Register Activation Key</a>
+                </li>
+                <li class="site-footer__navbar-item">
+                  <a class="site-footer__navbar-link" href="#">Site feedback</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="site-footer__end">
+          <p class="site-footer__copyright">© 2015-2020 Skillfy Education Private Limited. All rights reserved</p>
+          <ul class="site-footer__social">
+            <li class="site-footer__social-item">
+              <a class="site-footer__social-link" href="#" target="_blank">
+                <img class="site-footer__social-icon" src="./img/icon-facebook.svg" alt="Facebook">
+              </a>
+            </li>
+            <li class="site-footer__social-item">
+              <a class="site-footer__social-link" href="#" target="_blank">
+                <img class="site-footer__social-icon" src="./img/icon-twitter.svg" alt="Twitter">
+              </a>
+            </li>
+            <li class="site-footer__social-item">
+              <a class="site-footer__social-link" href="#" target="_blank">
+                <img class="site-footer__social-icon" src="./img/icon-google-plus.svg" alt="Google+">
+              </a>
+            </li>
+            <li class="site-footer__social-item">
+              <a class="site-footer__social-link" href="#" target="_blank">
+                <img class="site-footer__social-icon" src="./img/icon-linkedin.svg" alt="Linkedin">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

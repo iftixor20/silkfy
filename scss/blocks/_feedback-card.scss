@@ -1,0 +1,51 @@
+.feedback-card {
+  padding-left: 23px;
+  padding-bottom: 35px;
+  padding-top: 27px;
+  padding-right: 17px;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-top-right-radius: 30px;
+}
+
+.feedback-card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.feedback-card__avatar {
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.feedback-card__user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.feedback-card__user-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.feedback-card__user-job {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  color: #91929a;
+}
+
+.feedback-card__content {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.feedback-card--active {
+  border-left: 4px solid #F68C20;
+  background-color: #fff;
+}

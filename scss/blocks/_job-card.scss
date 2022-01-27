@@ -1,0 +1,26 @@
+.job-card {
+  display: flex;
+  column-gap: 32px;
+  align-items: flex-start;
+  padding-block: 48px;
+  padding-left: 22px;
+  padding-right: 64px;
+  background-color: #fff;
+}
+
+.job-card__avatar {
+  border-radius: 50%;
+}
+
+.job-card__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.job-card__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+}

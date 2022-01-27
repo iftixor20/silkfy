@@ -1,0 +1,43 @@
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.sitenav__item + .sitenav__item {
+  margin-left: 40px;
+}
+
+.sitenav__link {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #544e7a;
+  transition: opacity .3s;
+
+  &::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    transform: translateY(-2px);
+    background-image: url('../../img/icon-chevron-down.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: transform .3s;
+  }
+
+  &:hover {
+    opacity: 0.8;
+
+    &::after {
+      transform: initial;
+    }
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,32 @@
+.index-categories {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.index-categories__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.index-categories__title {
+  flex-grow: 1;
+  margin-right: 30px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #302d3a;
+}
+
+.index-categories__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.index-categories__item {
+  width: 20%;
+  flex-grow: 1;
+}

@@ -1,0 +1,13 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+// BREAKPOINTS
+
+@media screen and (min-width: $breakpoint-xl) {
+  .container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,139 @@
+.index-cta {
+  padding-top: 33px;
+  padding-bottom: 51px;
+  background-image: linear-gradient(#fef0ef 651px, #fff 651px);
+}
+
+.index-cta__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #302d3a;
+}
+
+.index-cta__text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.index-cta__search {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 23px 50px 0 rgba(245, 105, 98, 0.3);
+  overflow: hidden;
+}
+
+.index-cta__search-input {
+  flex-grow: 1;
+  padding: 25px 20px 30px;
+  border: none;
+  outline: none;
+}
+
+.index-cta__search-input::placeholder {
+  font-family: "Helvetica Light", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5f5982;
+}
+
+.index-cta__search-btn {
+  width: 68px;
+  padding: 0;
+  background-color: #f56962;
+  background-image: url("../../img/icon-search-white.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  border: none;
+}
+
+.index-cta__end {
+  position: relative;
+  padding-right: 37px;
+  padding-bottom: 39px;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 39px;
+    left: 37px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: transparent;
+    border: 3px solid #f68c20;
+    border-radius: 20px;
+  }
+}
+
+.index-cta__hero {
+  width: 100%;
+  height: 357px;
+  display: block;
+  border-radius: 20px;
+}
+
+// BREAKPOINTS
+
+@media screen and (min-width: $breakpoint-md) {
+  .index-cta {
+    padding-top: 78px;
+    padding-bottom: 85px;
+    background-image: none;
+    background-color: #fef0ef;
+    background-image: url('../../img/bg-hero.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .index-cta__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .index-cta__start {
+    flex-shrink: 0; 
+    margin-right: 41px;
+  }
+  
+  .index-cta__title {
+    max-width: 483px;
+    margin-bottom: 42px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    color: #000;
+  }
+
+  .index-cta__text {
+    max-width: 602px;
+    margin-bottom: 42px;
+    font-size: 24px;
+  }
+
+  .index-cta__search {
+    box-shadow: 0 23px 0 0 rgba(245, 181, 176, 0.55);
+  }
+
+  .index-cta__end {
+    height: 646px;
+    padding-right: 45px;
+    padding-bottom: 46px;
+
+    &::before {
+      top: 64px;
+      left: 59px;
+    }
+
+    .index-cta__hero {
+      height: 100%;
+    }
+  }
+}
